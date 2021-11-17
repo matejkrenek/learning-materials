@@ -102,9 +102,7 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     print(len(vegetables)) # 4
     
 **Přidání elementu do listu:**
-
 - Pomocí ``append``:
-
 .. code-block:: python
     print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
     fruits.append("Pomeranč")

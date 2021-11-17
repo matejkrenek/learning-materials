@@ -103,7 +103,7 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     
 **Přidání elementu do listu:**
 
-- Pomocí ``append``:
+Pomocí ``append``:
     - přidá element na konec listu
 
 .. code-block:: python

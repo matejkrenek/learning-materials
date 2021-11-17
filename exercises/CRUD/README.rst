@@ -2,8 +2,10 @@ CRUD
 ####
 
 - V souboru `/src/db/__init__.py`_ se nachází databáze s jedním tablem ``Users``
+- úkol zpracujte do před připraveného souboru `/src/main.py`_
 
 .. _/src/db/__init__.py: https://github.com/matejkrenek/learning-materials/blob/master/exercises/CRUD/src/db/__init__.py
+.. _/src/main.py: https://github.com/matejkrenek/learning-materials/blob/master/exercises/CRUD/src/main.py
 
 Vytvořte 4 funkce, které budou s touto databází pracovat
 ----------------------------

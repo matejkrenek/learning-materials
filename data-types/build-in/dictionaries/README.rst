@@ -25,4 +25,33 @@ Museli bychom přepsat hodnotu existující proměnné, která náleží danému
 .. code-block:: python
 
   car_color = "blue"
+  
+Problém s tímto provedením
+-------------------
+1. Parametry auta mezi sebou nemají žádný vzah
+2. Aut v naší sbírce může být několik
+3. Složitá úprava či přidání parametru auta, právě kvůli problému 1.
 
+Řešení těchto problému je jednoduché.
+
+Použít python ``dictionary``.
+
+S použitím ``dictionary``
+-------------------
+.. code-block:: python
+
+    car = {
+      "name": "BMW",
+      "color": "red",
+      "year": 1923
+    }
+    
+Chceme-li změnit nějaký parametr auta:
+.. code-block:: python
+
+  car["color"] = "blue"
+  
+Chceme-li přidat nějaký nový parametr auta:
+.. code-block:: python
+
+  car["owner"] = "Matěj Křenek"

@@ -57,3 +57,16 @@ Chceme-li přidat nějaký nový parametr auta:
 .. code-block:: python
 
   car["owner"] = "Matěj Křenek"
+  
+Vytvoření kolekce aut
+-------------------
+- Python ``dictionary`` můžeme zkombinovat z jakýmkoliv python datovým typem
+- V příkladu u ``listů`` jsme vytvořili list elementů, kde každý element korespondoval s jedním autem. Auto jsme zapsali v datovém typu ``string``.
+- Pomocí ``dictionary`` ale můžeme naší kolekci auto zapsat praktičteji a podrobněji
+
+.. code-block:: python
+
+  cars = [{"name": "BMW", "color": "red", "year": 1923}, {"name": "Audi", "color": "blue", "year": 2013}]
+  cars.append({"name": "Trabant", "color": "blue", "year": 1956})
+  
+Elementy tohoto listu jsou ``dictionaries``

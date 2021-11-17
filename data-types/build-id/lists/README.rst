@@ -88,4 +88,12 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     print(fruits[5]) # IndexError: list index out of range
     print(vegetables[1]) # "Okurka"
     
+**Změna hodnoty elementu**:
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits[0] = "Jablíčko"
+    print(fruits) # ["Jablíčko", "Hruška", "Mandarinka"]
+    
 

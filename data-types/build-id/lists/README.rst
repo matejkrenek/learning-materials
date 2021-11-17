@@ -35,6 +35,9 @@ Problém s tímto provedením
 2. Mezi jednotlivými proměnnými všech aut není žádný vztah, přestože patří do stejné sbírky
 3. Je v podstatě nemožné odstranit auto ze sbírky nebo jej přeřadit na jinou pozici a to právě kvůli problému 2.
 
+Řešení těchto problému je jednoduché.
+Použít python list.
+
 S použitím listů
 -------------------
 .. code-block:: python

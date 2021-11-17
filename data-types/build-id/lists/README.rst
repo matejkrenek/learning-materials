@@ -3,8 +3,8 @@ Listy
 
 Listy se používají k uložení více prvků do jedné proměné
 
-Porovnání
-=====
+Bez použití listů
+-------------------
 
 Řekněme, že máme sbírku 5 aut, které potřebujeme v pythnu nějákým způsobem uložit
 
@@ -34,6 +34,12 @@ Problém s tímto provedením
 2. Mezi jednotlivými proměnnými všech aut není žádný vztah, přestože patří do stejné sbírky
 3. Je v podstatě nemožné odstranit auto ze sbírky nebo jej přeřadit na jinou pozici a to právě kvůli problému 2.
 
+S použitím listů
+-------------------
+.. code-block:: python
+
+    cars = ["Audi", "BMW", "Škoda", "Volkswagen", "Renault"]
+    
 As you may have already seen, Cleo uses the command docstring to determine
 the command definition.
 The docstring must be in the following form :

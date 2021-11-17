@@ -7,4 +7,18 @@ CRUD
 
 Vytvořte 4 funkce, které budou s touto databází pracovat
 ----------------------------
+**create(tabulka, zaznam)**
+- vyvtvoří v tabulce nový záznam
+
+**read(tabulka, id_zaznamu)**
+- přečte z tabulky záznam podle id
+
+**update(tabulka, id_zaznamu, objekt_uprav)**
+- Upraví záznam podle id
+
+**delete(tabulka, id_zaznamu)**
+- Vymaže záznam podle id
+
+
+
 

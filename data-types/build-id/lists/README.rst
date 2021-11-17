@@ -6,9 +6,9 @@ Listy se používají k uložení více prvků do jedné proměné
 Porovnání
 =====
 
-Řekněme, že máme sbírku 5 aut, které potřebujeme v pythnu uložit do nějaké proměné
+Řekněme, že máme sbírku 5 aut, které potřebujeme v pythnu nějákým způsobem uložit
 
-Bez použití listů by jsme postupovali nejspíše tímto způsobem:
+Bez použití listů bychom postupovali nejspíše tímto způsobem:
 
 .. code-block:: python
 

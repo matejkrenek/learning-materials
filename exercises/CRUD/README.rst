@@ -8,5 +8,7 @@ CRUD
   - UPDATE
   - DELETE
   
-:ref:`Cross-References to Locations in the Same Document`
+Get the latest news at `CNN`_.
+
+.. _CNN: http://cnn.com/
 

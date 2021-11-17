@@ -30,18 +30,9 @@ Musíme logicky pro toto auto deklarovat další proměnnou:
 
 Problém s tímto provedením
 -------------------
-
-You can also use the ``--yell`` option to make everything uppercase:
-
-.. code-block:: bash
-
-    $ python application.py greet John --yell
-
-This prints:
-
-.. code-block:: text
-
-    HELLO JOHN
+1. Je velice nepravděpodobné, že znáte přesný počet všech položek v jakémkoliv listu
+2. Mezi jednotlivými proměnnými všech aut není žádný vztah, přestože patří do stejné sbírky
+3. Je v podstatě nemožné odstranit auto ze sbírky nebo jej přeřadit na jinou pozici a to právě kvůli problému 2.
 
 As you may have already seen, Cleo uses the command docstring to determine
 the command definition.

@@ -78,10 +78,14 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
 
 **Přístup k elementu**:
 
+Pro zpřístupnění ``elementu`` v listu použijeme ``index`` ``elementu``, který chceme najít:
+
 .. code-block:: python
 
     print(fruits[0]) # "Jablko"
     print(fruits[2]) # "Mandarinka"
     print(fruits[-1]) # "Mandarinka"
     print(fruits[5]) # IndexError: list index out of range
-    print(vegetables[1]) #"Okurka"
+    print(vegetables[1]) # "Okurka"
+    
+

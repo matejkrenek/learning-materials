@@ -3,7 +3,8 @@ Listy
 
 Listy se používají k uložení více prvků do jedné proměné
 
-_Zadání_
+Zadání
+-------------------
 Řekněme, že máme sbírku 5 aut, které potřebujeme v pythnu nějákým způsobem uložit
 
 Bez použití listů

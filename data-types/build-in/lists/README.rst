@@ -1,7 +1,8 @@
 List
 ####
 
-Listy se používají k uložení více prvků do jedné proměné
+- Listy se používají k uložení více prvků do jedné proměné
+- V pythnu nemusí být položky listu stejného datového typu
 
 Zadání
 -------------------

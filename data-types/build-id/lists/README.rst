@@ -59,3 +59,6 @@ Pojem                                    Význam                                
 ``index``                                ``index`` je pozice ``elementu`` v listu                             ``element`` "Audi" v listu ``cars`` má ``index`` 0
 ``délka``                                ``délka`` listu označuje kolik ``elementů`` se listu nachází         ``délka`` listu ``cars`` je 6
 =======================================  ==================================================================== ===============================================================
+
+Práce s listy
+##

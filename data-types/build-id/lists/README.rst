@@ -77,6 +77,7 @@ funkce ``list`` nám vytvoří totžný list jako ``fruits``
 Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
 
 **Přístup k elementu**:
+
 .. code-block:: python
 
     cars = ["Audi", "BMW", "Škoda", "Volkswagen", "Renault"]

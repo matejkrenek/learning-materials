@@ -62,10 +62,19 @@ Pojem                                    Význam                                
 
 Práce s listy
 -------------------
+
 Pro názorné ukázky si declarujeme dva listy
+
 .. code-block:: python
 
-    fruits = ["Apple", "BMW", "Škoda", "Volkswagen", "Renault"]
+    fruits = ["Jablko", "Hruška", "Mandarinka"]
+    vegetables = list(("Mrkev", "Okurka", "Brambora", "Rajče"))
+    
+list ``vegetables`` je vytvořen pomocí ``build-in`` funkce ``list``.
+
+funkce ``list`` nám vytvoří totžný list jako ``fruits``
+
+Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
 
 **Přístup k elementu**:
 .. code-block:: python

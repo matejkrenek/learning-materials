@@ -164,4 +164,13 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     print(fruits) # ["Hruška", "Mandarinka"]
     del fruits
     print(fruits) # NameError: name 'fruits' is not defined
+    
+- Pomocí ``clear``:
+    - Vymaže z listu všechny ``elementy``
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits.clear()
+    print(fruits) # []
 

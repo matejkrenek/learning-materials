@@ -36,7 +36,8 @@ Problém s tímto provedením
 3. Je v podstatě nemožné odstranit auto ze sbírky nebo jej přeřadit na jinou pozici a to právě kvůli problému 2.
 
 Řešení těchto problému je jednoduché.
-Použít python list.
+
+Použít python ``list``.
 
 S použitím listů
 -------------------

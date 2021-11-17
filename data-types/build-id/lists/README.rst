@@ -194,21 +194,7 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     # "Hruška"
     # "Mandarinka"
     
-- Pomocí ``while``:
-.. code-block:: python
-
-    for element in fruits:
-      print(element)
-    
-    # "Jablko"
-    # "Hruška"
-    # "Mandarinka"
-    
-    for index in range(len(fruits)):
-        print(fruits[index])
-        
-    # "Jablko"
-    # "Hruška"
-    # "Mandarinka"
+Využití v REAL WORLD projektech
+-------------------
     
 

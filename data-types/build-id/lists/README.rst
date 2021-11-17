@@ -130,4 +130,26 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     fruits.extend(vegetables)
     print(fruits) # ["Jablko", "Hruška", "Mandarinka", "Mrkev", "Okurka", "Brambora", "Rajče"]
     
+**Odebrání elementu z listu:**
+
+- Pomocí ``remove``:
+    - Vymaže z listu ``element`` s konkrétní hodnotou
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits.remove("Hruška")
+    print(fruits) # ["Jablko", "Mandarinka"]
+    
+- Pomocí ``pop``:
+    - Vymaže z listu ``element`` na konkrétní pozici
+    - Bez zadaní pozice vymaže z listu poslední ``element``
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits.pop(0)
+    print(fruits) # ["Hruška", "Mandarinka"]
+    fruits.pop()
+    print(fruits) # ["Hruška"]
 

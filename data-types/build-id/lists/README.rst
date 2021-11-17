@@ -103,7 +103,7 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     
 **Přidání elementu do listu:**
 
-Pomocí ``append``:
+- Pomocí ``append``:
     - přidá element na konec listu
 
 .. code-block:: python
@@ -111,5 +111,23 @@ Pomocí ``append``:
     print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
     fruits.append("Pomeranč")
     print(fruits) # ["Jablko", "Hruška", "Mandarinka", "Pomeranč"]
+    
+- Pomocí ``insert``:
+    - přidá element na konkrétní pozici v listu
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits.insert(1, "Pomeranč")
+    print(fruits) # ["Jablko",  "Pomeranč", "Hruška", "Mandarinka"]
+    
+- Pomocí ``extend``:
+    - přidá elementy z jednoho listu na konec druhého listu
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits.extend(vegetables)
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka", "Mrkev", "Okurka", "Brambora", "Rajče"]
     
 

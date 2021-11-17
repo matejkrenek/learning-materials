@@ -152,4 +152,16 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     print(fruits) # ["Hruška", "Mandarinka"]
     fruits.pop()
     print(fruits) # ["Hruška"]
+    
+- Pomocí ``del``:
+    - Vymaže z listu ``element`` na konkrétní pozici
+    - Bez zadaní pozice vymaže kompletně celý list
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    del fruits[0]
+    print(fruits) # ["Hruška", "Mandarinka"]
+    del fruits
+    print(fruits) # NameError: name 'fruits' is not defined
 

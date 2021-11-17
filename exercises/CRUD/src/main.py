@@ -2,14 +2,14 @@ import db
 
 users = db.Users
 
-def create(collection, object):
+def create(table, object):
     pass
 
-def read(collection, id):
+def read(table, id):
     pass
 
-def update(collection, id, object):
+def update(table, id, object):
     pass
 
-def delete(collection, id):
+def delete(table, id):
     pass

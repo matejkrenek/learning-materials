@@ -173,4 +173,17 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
     fruits.clear()
     print(fruits) # []
+    
+**Průchod všemi ``elementy`` listu pomocí ``cyklů``:**
+
+- Pomocí ``for``:
+.. code-block:: python
+
+    for element in fruits:
+      print(element)
+    
+    # "Jablko"
+    # "Hruška"
+    # "Mandarinka"
+    
 

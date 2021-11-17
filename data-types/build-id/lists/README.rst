@@ -80,4 +80,8 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
 
 .. code-block:: python
 
-    cars = ["Audi", "BMW", "Škoda", "Volkswagen", "Renault"]
+    print(fruits[0]) # "Jablko"
+    print(fruits[2]) # "Mandarinka"
+    print(fruits[-1]) # "Mandarinka"
+    print(fruits[5]) # IndexError: list index out of range
+    print(vegetables[1]) #"Okurka"

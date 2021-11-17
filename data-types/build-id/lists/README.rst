@@ -76,7 +76,7 @@ funkce ``list`` nám vytvoří totžný list jako ``fruits``
 
 Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
 
-**Přístup k elementu**:
+**Přístup k elementu:**
 
 - Pro zpřístupnění ``elementu`` v listu použijeme ``index`` ``elementu``, který chceme najít:
 
@@ -88,12 +88,19 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     print(fruits[5]) # IndexError: list index out of range
     print(vegetables[1]) # "Okurka"
     
-**Změna hodnoty elementu**:
+**Změna hodnoty elementu:**
 
 .. code-block:: python
 
     print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
     fruits[0] = "Jablíčko"
     print(fruits) # ["Jablíčko", "Hruška", "Mandarinka"]
+    
+**Délka listu:**
+
+.. code-block:: python
+
+    print(len(fruits)) # 3
+    print(len(vegetables)) # 4
     
 

@@ -3,11 +3,11 @@ Listy
 
 Listy se používají k uložení více prvků do jedné proměné
 
-Bez použití listů
--------------------
-
+_Zadání_
 Řekněme, že máme sbírku 5 aut, které potřebujeme v pythnu nějákým způsobem uložit
 
+Bez použití listů
+-------------------
 Bez použití listů bychom postupovali nejspíše tímto způsobem:
 
 .. code-block:: python

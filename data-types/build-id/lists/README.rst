@@ -18,10 +18,10 @@ Bez použití listů bychom postupovali nejspíše tímto způsobem:
     car4 = "Volkswagen"
     car5 = "Renault"
 
-Pro každé auto ve sbírce vytvoříme vlastní pro proměnnou
+Pro každé auto ve sbírce deklarujeme vlastní proměnnou
 
-Co když se do naší sbírky přidá další auto?
-Musíme logicky pro toto auto vytvořit další proměnnou:
+Co když se do naší sbírky ale přidá další auto?
+Musíme logicky pro toto auto deklarovat další proměnnou:
 
 .. code-block:: python
 

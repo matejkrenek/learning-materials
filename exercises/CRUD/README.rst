@@ -1,6 +1,13 @@
 CRUD
 ####
 
+Požadované schopnosti
+----------------------------
+- Práce s `listy`_
+.. _listy: https://github.com/matejkrenek/learning-materials/tree/master/data-types/build-in/lists
+- Práce s python `dictionary`_
+.. _dictionary: https://github.com/matejkrenek/learning-materials/tree/master/data-types/build-in/dictionaries
+
 - V souboru `/src/db/__init__.py`_ se nachází databáze s jedním tablem ``Users``
 - úkol zpracujte do před připraveného souboru `/src/main.py`_
 

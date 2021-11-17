@@ -26,7 +26,6 @@ Musíme logicky pro toto auto deklarovat další proměnnou:
 
 .. code-block:: python
 
-    ...
     car6 = "Volkswagen Golf"
 
 Problém s tímto provedením
@@ -49,5 +48,4 @@ Potrřebujeme-li do sbírky přidat další auto:
 
 .. code-block:: python
 
-    ...
     cars.append("Volkswagen Golf")

@@ -78,8 +78,6 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
 
 **Přístup k elementu:**
 
-- Pro zpřístupnění ``elementu`` v listu použijeme ``index`` ``elementu``, který chceme najít:
-
 .. code-block:: python
 
     print(fruits[0]) # "Jablko"

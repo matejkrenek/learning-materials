@@ -61,4 +61,13 @@ Pojem                                    Význam                                
 =======================================  ==================================================================== ===============================================================
 
 Práce s listy
-##
+-------------------
+Pro názorné ukázky si declarujeme dva listy
+.. code-block:: python
+
+    fruits = ["Apple", "BMW", "Škoda", "Volkswagen", "Renault"]
+
+**Přístup k elementu**:
+.. code-block:: python
+
+    cars = ["Audi", "BMW", "Škoda", "Volkswagen", "Renault"]

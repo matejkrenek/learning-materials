@@ -177,11 +177,36 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
 **Průchod všemi ``elementy`` listu pomocí ``cyklů``:**
 
 - Pomocí ``for``:
+
 .. code-block:: python
 
     for element in fruits:
       print(element)
     
+    # "Jablko"
+    # "Hruška"
+    # "Mandarinka"
+    
+    for index in range(len(fruits)):
+        print(fruits[index])
+        
+    # "Jablko"
+    # "Hruška"
+    # "Mandarinka"
+    
+- Pomocí ``while``:
+.. code-block:: python
+
+    for element in fruits:
+      print(element)
+    
+    # "Jablko"
+    # "Hruška"
+    # "Mandarinka"
+    
+    for index in range(len(fruits)):
+        print(fruits[index])
+        
     # "Jablko"
     # "Hruška"
     # "Mandarinka"

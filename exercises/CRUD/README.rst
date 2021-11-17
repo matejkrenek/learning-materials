@@ -8,7 +8,7 @@ CRUD
   - UPDATE
   - DELETE
   
-Get the latest news at `CNN`_.
+V souboru `/src/db/__init__.py`_.
 
-.. _CNN: http://cnn.com/
+.. _/src/db/__init__.py: https://github.com/matejkrenek/learning-materials/blob/master/exercises/CRUD/src/db/__init__.py
 

@@ -194,6 +194,22 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     # "Hruška"
     # "Mandarinka"
     
+**Třízení listů:**
+
+- Pomocí ``sort``:
+    - seřadí ``elementy`` v listu vzestupně
+    - v případě nastavení parametru reverse na True seřadí ``elementy`` sestupně
+
+.. code-block:: python
+
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits.sort()
+    print(fruits) # ["Hruška", "Jablko", "Mandarinka"]
+    
+    print(fruits) # ["Jablko", "Hruška", "Mandarinka"]
+    fruits.sort(reverse=True)
+    print(fruits) # ["Mandarinka", "Jablko", "Hruška"]
+    
 Využití v REAL WORLD projektech
 -------------------
     

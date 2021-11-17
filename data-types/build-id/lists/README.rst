@@ -56,5 +56,5 @@ Terminologie
 Pojem                                    Význam                                                               Příklad
 =======================================  ==================================================================== ===============================================================
 ``element``                              ``element`` je jedna položka z listu                                 v listu ``cars`` jsou ``elementy`` "Audi", "BMW", "Škoda" atd.
-``index``                                ``index`` je poloha ``elementu`` v listu
+``index``                                ``index`` je poloha ``elementu`` v listu                             ``element`` "Audi" z listu ``cars`` má ``index`` 0
 =======================================  ==================================================================== ===============================================================

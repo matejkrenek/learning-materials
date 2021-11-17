@@ -47,11 +47,13 @@ S použitím ``dictionary``
     }
     
 Chceme-li změnit nějaký parametr auta:
+
 .. code-block:: python
 
   car["color"] = "blue"
   
 Chceme-li přidat nějaký nový parametr auta:
+
 .. code-block:: python
 
   car["owner"] = "Matěj Křenek"

@@ -7,6 +7,10 @@ Požadované schopnosti
 .. _listy: https://github.com/matejkrenek/learning-materials/tree/master/data-types/build-in/lists
 - Práce s python `dictionary`_
 .. _dictionary: https://github.com/matejkrenek/learning-materials/tree/master/data-types/build-in/dictionaries
+- `funkce`_
+.. _funkce: https://github.com/matejkrenek/learning-materials/tree/master/functions
+
+----------------------------
 
 - V souboru `/src/db/__init__.py`_ se nachází databáze s jedním tablem ``Users``
 - úkol zpracujte do před připraveného souboru `/src/main.py`_

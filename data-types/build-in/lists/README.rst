@@ -102,6 +102,12 @@ Tento způsob vytvoření listu se přiliš nepoužívá, ale za zmínku stojí
     print(len(fruits)) # 3
     print(len(vegetables)) # 4
     
+**Počet hodnoty v listu:**
+
+.. code-block:: python
+
+    print(fruits.count("Jablko")) # 0
+    
 **Přidání elementu do listu:**
 
 - Pomocí ``append``:
